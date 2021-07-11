@@ -31,9 +31,7 @@ export default class Next extends Sprite {
   }
 
   *whenthisspriteclicked() {
-    this.stage.costume = "level";
-    this.broadcast("level");
-    yield* this.wait(1);
+window.location.href="https://lizziefernie.github.io/EL1G3/";
   }
 
   *whenIReceiveResult() {
